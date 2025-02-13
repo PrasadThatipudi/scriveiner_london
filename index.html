@@ -39,6 +39,23 @@
         margin: 0px 60px 0px 65px;
         line-height: 30px;
       }
+
+      tr {
+        text-align: left;
+      }
+
+      #product-details {
+        font-size: 30px;
+        margin: 90px 0px 0px 120px;
+      }
+
+      #buy-id {
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        padding: 8px 30px;
+        border-radius: 10px;
+      }
     </style>
   </head>
   <body>
@@ -56,8 +73,36 @@
           lacquer finished in 24 karat gold. Premium quality and understated
           luxury from a boutique British brand.
         </p>
-        <!-- Product details -->
-        <table></table>
+        <table id="product-details">
+          <tbody>
+            <tr>
+              <th><span style="padding-right: 200px">Brand</span></th>
+              <td>Scriveiner</td>
+            </tr>
+            <tr>
+              <th>Colour</th>
+              <td>Gold</td>
+            </tr>
+            <tr>
+              <th>Ink Colour</th>
+              <td>Black</td>
+            </tr>
+            <tr>
+              <th>Material</th>
+              <td>Brass</td>
+            </tr>
+            <tr>
+              <th style="padding-bottom: 20px">Point Type</th>
+              <td style="padding-bottom: 20px">Medium</td>
+            </tr>
+            <tr>
+              <td colspan="2" id="buy-id">
+                <span>Buy</span>
+                <span style="float: right">₹6,019</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </article>
   </body>
