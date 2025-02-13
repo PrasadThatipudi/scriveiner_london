@@ -3,29 +3,52 @@
   <head>
     <title>Scriveiner Gold Rollerball Pen</title>
     <style>
+      * {
+        font-family: system-ui;
+      }
+
       #pen {
         margin: 150px 0px 0px 150px;
         height: 600px;
         width: 1300px;
       }
 
-      #pen > img {
+      #product-image {
+        float: left;
         box-sizing: border-box;
         height: 600px;
         width: 600px;
+      }
+
+      #product-desc {
+        float: right;
+        width: 700px;
+        height: 600px;
+      }
+
+      #product-heading {
+        text-transform: uppercase;
+        line-height: 20px;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 30px;
       }
     </style>
   </head>
   <body>
     <article id="pen">
       <img
+        id="product-image"
         src="https://m.media-amazon.com/images/I/711MQzAYdmL._SX679_.jpg"
         alt="Scriveiner Gold Rollerball Pen"
       />
-      <h1>Product Name</h1>
-      <p>Product Description</p>
-      <!-- Product details -->
-      <table></table>
+      <div id="product-desc">
+        <h1 id="product-heading">Scriveiner Gold Rollerball Pen</h1>
+        <p>Product Description</p>
+        <!-- Product details -->
+        <table></table>
+      </div>
     </article>
   </body>
 </html>
